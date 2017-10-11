@@ -2,6 +2,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import math, random
 
+#正規分布
 def normal_pdf(x, mu=0, sigma=1):
     sqrt_two_pi = math.sqrt(2 * math.pi)
     return (math.exp(-(x-mu) ** 2 / 2 / sigma ** 2) / (sqrt_two_pi * sigma))
